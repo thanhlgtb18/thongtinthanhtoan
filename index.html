@@ -247,16 +247,14 @@
         <div class="back-to-top"></div>
         <!-- JavaScripts -->
         <script>
-<script>
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-  Swal.fire("Thông báo", "Copy thành công!", "success");
-}
-</script>
+            function copyToClipboard(element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+                Swal.fire("Thông báo", "Copy thành công!", "success");
+            }
         </script>
         <script>
             //<![CDATA[
